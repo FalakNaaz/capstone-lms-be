@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-08-17T10:42:23.572Z"
+    "x-generation-date": "2022-08-19T06:35:03.014Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3689,6 +3689,12 @@
                                   "title": {
                                     "type": "string"
                                   },
+                                  "toc_link_view": {
+                                    "type": "string"
+                                  },
+                                  "toc_link_edit": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -6553,6 +6559,12 @@
                                 "title": {
                                   "type": "string"
                                 },
+                                "toc_link_view": {
+                                  "type": "string"
+                                },
+                                "toc_link_edit": {
+                                  "type": "string"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -8839,6 +8851,12 @@
                                   "title": {
                                     "type": "string"
                                   },
+                                  "toc_link_view": {
+                                    "type": "string"
+                                  },
+                                  "toc_link_edit": {
+                                    "type": "string"
+                                  },
                                   "createdAt": {
                                     "type": "string",
                                     "format": "date-time"
@@ -11095,6 +11113,12 @@
                                 "title": {
                                   "type": "string"
                                 },
+                                "toc_link_view": {
+                                  "type": "string"
+                                },
+                                "toc_link_edit": {
+                                  "type": "string"
+                                },
                                 "createdAt": {
                                   "type": "string",
                                   "format": "date-time"
@@ -11940,6 +11964,12 @@
                 "example": "string or id"
               },
               "title": {
+                "type": "string"
+              },
+              "toc_link_view": {
+                "type": "string"
+              },
+              "toc_link_edit": {
                 "type": "string"
               }
             }
@@ -14004,6 +14034,12 @@
                                               "title": {
                                                 "type": "string"
                                               },
+                                              "toc_link_view": {
+                                                "type": "string"
+                                              },
+                                              "toc_link_edit": {
+                                                "type": "string"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -14772,6 +14808,12 @@
                       }
                     },
                     "title": {
+                      "type": "string"
+                    },
+                    "toc_link_view": {
+                      "type": "string"
+                    },
+                    "toc_link_edit": {
                       "type": "string"
                     },
                     "createdAt": {
@@ -16906,6 +16948,12 @@
                                             "title": {
                                               "type": "string"
                                             },
+                                            "toc_link_view": {
+                                              "type": "string"
+                                            },
+                                            "toc_link_edit": {
+                                              "type": "string"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -17674,6 +17722,12 @@
                     }
                   },
                   "title": {
+                    "type": "string"
+                  },
+                  "toc_link_view": {
+                    "type": "string"
+                  },
+                  "toc_link_edit": {
                     "type": "string"
                   },
                   "createdAt": {
@@ -22446,6 +22500,12 @@
                                                           "title": {
                                                             "type": "string"
                                                           },
+                                                          "toc_link_view": {
+                                                            "type": "string"
+                                                          },
+                                                          "toc_link_edit": {
+                                                            "type": "string"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -24679,6 +24739,12 @@
                                                         "title": {
                                                           "type": "string"
                                                         },
+                                                        "toc_link_view": {
+                                                          "type": "string"
+                                                        },
+                                                        "toc_link_edit": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -26904,6 +26970,12 @@
                                                                           }
                                                                         },
                                                                         "title": {
+                                                                          "type": "string"
+                                                                        },
+                                                                        "toc_link_view": {
+                                                                          "type": "string"
+                                                                        },
+                                                                        "toc_link_edit": {
                                                                           "type": "string"
                                                                         },
                                                                         "createdAt": {
@@ -29166,6 +29238,12 @@
                                                                         }
                                                                       },
                                                                       "title": {
+                                                                        "type": "string"
+                                                                      },
+                                                                      "toc_link_view": {
+                                                                        "type": "string"
+                                                                      },
+                                                                      "toc_link_edit": {
                                                                         "type": "string"
                                                                       },
                                                                       "createdAt": {
@@ -31536,6 +31614,12 @@
                                                           "title": {
                                                             "type": "string"
                                                           },
+                                                          "toc_link_view": {
+                                                            "type": "string"
+                                                          },
+                                                          "toc_link_edit": {
+                                                            "type": "string"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -33803,6 +33887,12 @@
                                                           }
                                                         },
                                                         "title": {
+                                                          "type": "string"
+                                                        },
+                                                        "toc_link_view": {
+                                                          "type": "string"
+                                                        },
+                                                        "toc_link_edit": {
                                                           "type": "string"
                                                         },
                                                         "createdAt": {
