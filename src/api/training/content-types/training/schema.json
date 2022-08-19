@@ -48,6 +48,13 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "toc_link_view": {
+      "type": "string",
+      "default": "www.google.com"
+    },
+    "toc_link_edit": {
+      "type": "string"
     }
   }
 }
