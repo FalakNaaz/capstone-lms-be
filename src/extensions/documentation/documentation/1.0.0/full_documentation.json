@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-08-22T10:49:50.671Z"
+    "x-generation-date": "2022-08-23T05:49:18.183Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2796,6 +2796,9 @@
                                                       }
                                                     }
                                                   }
+                                                },
+                                                "fullName": {
+                                                  "type": "string"
                                                 },
                                                 "createdAt": {
                                                   "type": "string",
@@ -5670,6 +5673,9 @@
                                                   }
                                                 }
                                               },
+                                              "fullName": {
+                                                "type": "string"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -8077,6 +8083,9 @@
                                                     }
                                                   }
                                                 },
+                                                "fullName": {
+                                                  "type": "string"
+                                                },
                                                 "createdAt": {
                                                   "type": "string",
                                                   "format": "date-time"
@@ -10341,6 +10350,9 @@
                                                     }
                                                   }
                                                 }
+                                              },
+                                              "fullName": {
+                                                "type": "string"
                                               },
                                               "createdAt": {
                                                 "type": "string",
@@ -13157,6 +13169,9 @@
                                                                   }
                                                                 }
                                                               }
+                                                            },
+                                                            "fullName": {
+                                                              "type": "string"
                                                             },
                                                             "createdAt": {
                                                               "type": "string",
@@ -16077,6 +16092,9 @@
                                                                 }
                                                               }
                                                             }
+                                                          },
+                                                          "fullName": {
+                                                            "type": "string"
                                                           },
                                                           "createdAt": {
                                                             "type": "string",
@@ -22589,6 +22607,9 @@
                                                   }
                                                 }
                                               },
+                                              "fullName": {
+                                                "type": "string"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -24831,6 +24852,9 @@
                                                 }
                                               }
                                             },
+                                            "fullName": {
+                                              "type": "string"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -27066,6 +27090,9 @@
                                                                   }
                                                                 }
                                                               }
+                                                            },
+                                                            "fullName": {
+                                                              "type": "string"
                                                             },
                                                             "createdAt": {
                                                               "type": "string",
@@ -29338,6 +29365,9 @@
                                                               }
                                                             }
                                                           },
+                                                          "fullName": {
+                                                            "type": "string"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -29564,7 +29594,8 @@
           "data": {
             "required": [
               "username",
-              "email"
+              "email",
+              "fullName"
             ],
             "type": "object",
             "properties": {
@@ -29616,6 +29647,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "fullName": {
+                "type": "string"
               }
             }
           }
@@ -31715,6 +31749,9 @@
                                                   }
                                                 }
                                               },
+                                              "fullName": {
+                                                "type": "string"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -31828,6 +31865,9 @@
                           }
                         }
                       }
+                    },
+                    "fullName": {
+                      "type": "string"
                     },
                     "createdAt": {
                       "type": "string",
@@ -33993,6 +34033,9 @@
                                                 }
                                               }
                                             },
+                                            "fullName": {
+                                              "type": "string"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -34106,6 +34149,9 @@
                         }
                       }
                     }
+                  },
+                  "fullName": {
+                    "type": "string"
                   },
                   "createdAt": {
                     "type": "string",

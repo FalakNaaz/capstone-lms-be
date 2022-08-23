@@ -68,6 +68,10 @@
       "relation": "manyToOne",
       "target": "api::training.training",
       "inversedBy": "learners"
+    },
+    "fullName": {
+      "type": "string",
+      "required": true
     }
   }
 }
