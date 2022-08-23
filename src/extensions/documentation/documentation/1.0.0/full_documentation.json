@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-08-23T05:49:18.183Z"
+    "x-generation-date": "2022-08-23T05:54:20.215Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2799,6 +2799,9 @@
                                                 },
                                                 "fullName": {
                                                   "type": "string"
+                                                },
+                                                "assessmentScore": {
+                                                  "type": "integer"
                                                 },
                                                 "createdAt": {
                                                   "type": "string",
@@ -5676,6 +5679,9 @@
                                               "fullName": {
                                                 "type": "string"
                                               },
+                                              "assessmentScore": {
+                                                "type": "integer"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -8086,6 +8092,9 @@
                                                 "fullName": {
                                                   "type": "string"
                                                 },
+                                                "assessmentScore": {
+                                                  "type": "integer"
+                                                },
                                                 "createdAt": {
                                                   "type": "string",
                                                   "format": "date-time"
@@ -10353,6 +10362,9 @@
                                               },
                                               "fullName": {
                                                 "type": "string"
+                                              },
+                                              "assessmentScore": {
+                                                "type": "integer"
                                               },
                                               "createdAt": {
                                                 "type": "string",
@@ -13172,6 +13184,9 @@
                                                             },
                                                             "fullName": {
                                                               "type": "string"
+                                                            },
+                                                            "assessmentScore": {
+                                                              "type": "integer"
                                                             },
                                                             "createdAt": {
                                                               "type": "string",
@@ -16095,6 +16110,9 @@
                                                           },
                                                           "fullName": {
                                                             "type": "string"
+                                                          },
+                                                          "assessmentScore": {
+                                                            "type": "integer"
                                                           },
                                                           "createdAt": {
                                                             "type": "string",
@@ -22610,6 +22628,9 @@
                                               "fullName": {
                                                 "type": "string"
                                               },
+                                              "assessmentScore": {
+                                                "type": "integer"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -24855,6 +24876,9 @@
                                             "fullName": {
                                               "type": "string"
                                             },
+                                            "assessmentScore": {
+                                              "type": "integer"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -27093,6 +27117,9 @@
                                                             },
                                                             "fullName": {
                                                               "type": "string"
+                                                            },
+                                                            "assessmentScore": {
+                                                              "type": "integer"
                                                             },
                                                             "createdAt": {
                                                               "type": "string",
@@ -29368,6 +29395,9 @@
                                                           "fullName": {
                                                             "type": "string"
                                                           },
+                                                          "assessmentScore": {
+                                                            "type": "integer"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -29595,7 +29625,8 @@
             "required": [
               "username",
               "email",
-              "fullName"
+              "fullName",
+              "assessmentScore"
             ],
             "type": "object",
             "properties": {
@@ -29650,6 +29681,9 @@
               },
               "fullName": {
                 "type": "string"
+              },
+              "assessmentScore": {
+                "type": "integer"
               }
             }
           }
@@ -31752,6 +31786,9 @@
                                               "fullName": {
                                                 "type": "string"
                                               },
+                                              "assessmentScore": {
+                                                "type": "integer"
+                                              },
                                               "createdAt": {
                                                 "type": "string",
                                                 "format": "date-time"
@@ -31868,6 +31905,9 @@
                     },
                     "fullName": {
                       "type": "string"
+                    },
+                    "assessmentScore": {
+                      "type": "integer"
                     },
                     "createdAt": {
                       "type": "string",
@@ -34036,6 +34076,9 @@
                                             "fullName": {
                                               "type": "string"
                                             },
+                                            "assessmentScore": {
+                                              "type": "integer"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -34152,6 +34195,9 @@
                   },
                   "fullName": {
                     "type": "string"
+                  },
+                  "assessmentScore": {
+                    "type": "integer"
                   },
                   "createdAt": {
                     "type": "string",

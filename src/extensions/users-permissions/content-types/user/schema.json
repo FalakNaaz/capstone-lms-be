@@ -72,6 +72,10 @@
     "fullName": {
       "type": "string",
       "required": true
+    },
+    "assessmentScore": {
+      "type": "integer",
+      "required": true
     }
   }
 }
