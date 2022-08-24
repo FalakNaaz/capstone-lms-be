@@ -46,8 +46,8 @@
     },
     "title": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": false,
+      "unique": false
     },
     "toc_link_view": {
       "type": "string",
@@ -58,7 +58,7 @@
     },
     "description": {
       "type": "text",
-      "required": true
+      "required": false
     }
   }
 }
